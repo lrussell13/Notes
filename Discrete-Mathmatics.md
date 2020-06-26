@@ -37,9 +37,9 @@ Set
 
 ### The Empty Set
 - The empty set is a special type of set with no elements inside of it
-: {} = ∅
-: |∅| = 0
-: |{∅}| = 1
+  * {} = ∅
+  * |∅| = 0
+  * |{∅}| = 1
 
 ### Subsets
 - B is a subset of A if every element in B is also in A

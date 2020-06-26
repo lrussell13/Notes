@@ -2,7 +2,7 @@
 
 ---
 
-## Section 1 - Set Theory
+## Set Theory
 
 ### Definitions:
 Set
@@ -70,14 +70,14 @@ Set
   * : Ā = U - A = {x | x ∉ A}
 
 - Intersection of A and B: A ∩ B is the intersection of A and B
-  * : A ∩ B = {x | x ε A and c ε B}
+  * A ∩ B = {x | x ε A and c ε B}
 
 - Union of A and B: A ∪ B is the union of A and B
-  * : A ∪ B = {x | x ε A or x ε B}
+  * A ∪ B = {x | x ε A or x ε B}
   * Inclusive or
 
 - Difference of A and B: A - B is the difference of A and B
-  * : A - B = {x|x ε A and x ∉ B}
+  * A - B = {x|x ε A and x ∉ B}
 
 ### Cartesian Products and Order Pairs
 - Order Pair: An ordered pair (a, b) of elements in A is defined to be the set {a, {a,b}}

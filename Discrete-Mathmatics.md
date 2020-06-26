@@ -56,7 +56,7 @@ Set
   * After doing this for all elements, the bottom row will be your power set.
 
 - To determine cardinality of power set:
-  * if |A| = n, then |P(A)| = 2<sup>A</sup>
+  * if |A| = n, then |P(A)| = 2<sup>n</sup>
 
 - Possible areas of confusion:
   * P(∅) = {∅}
@@ -88,6 +88,6 @@ Set
   * Cardinality will be mn, where m = |A| and n = |B|
   * Order matters: BxA ≠ AxB unless A = B  
   * Empty Set: Ax∅ = ∅
-  
+
 
   

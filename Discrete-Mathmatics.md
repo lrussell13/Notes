@@ -100,6 +100,7 @@ Proposition
 - Conneectives are used for making compound propositions
 
 | Name | Represented | Meaning |
+| --- | --- | --- |
 | Negation | ¬p | "not p" |
 | Conjuction | p ^ q | "p and q" |
 | Disjunction | p ∨ q | "p or q" |
@@ -113,12 +114,14 @@ Proposition
 #### Negation Example
 
 | p | ¬p |
+| --- | --- |
 | T | F |
 | F | T |
 
 #### Conjuction Example (^, "and")
 
 | p | q | p ^ q |
+| --- | --- | --- |
 | T | F | F | 
 | T | T | T |
 | F | T | F |
@@ -127,6 +130,7 @@ Proposition
 #### Disjunction Example (∨, "or")
 
 | p | q | p ∨ q |
+| --- | --- | --- |
 | T | F | T | 
 | T | T | T |
 | F | T | T |
@@ -135,6 +139,7 @@ Proposition
 #### Exclusive Or Example (⊕, "xor")
 
 | p | q | p ⊕ q |
+| --- | --- | --- |
 | T | F | T | 
 | T | T | F |
 | F | T | T |
@@ -143,6 +148,7 @@ Proposition
 #### Implication Example (⇒, "if p then q")
 
 | p | q | p ⇒ q |
+| --- | --- | --- |
 | T | F | F | 
 | T | T | T |
 | F | T | T |
@@ -151,6 +157,7 @@ Proposition
 #### Biconditional Example (⇔, "p if and only if q")
 
 | p | q | p ⇔ q |
+| --- | --- | --- |
 | T | F | F | 
 | T | T | T |
 | F | T | F |
@@ -163,6 +170,7 @@ Proposition
 Show that ¬(p ∨ q) ≡ ¬p ^ ¬q
 
 | p | q | ¬p | ¬q | p ∨ q | ¬(p ∨ q) | ¬p ^ ¬q
+| --- | --- | --- | --- | --- | --- | --- |
 | T | T | F | F | T | F | F |
 | T | F | F | T | T | F | F |
 | F | T | T | F | T | F | F |

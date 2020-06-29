@@ -1,10 +1,8 @@
 # Discrete Mathmatics
 
----
-
 ## Set Theory
 
-### Definitions:
+### Definitions
 Set
 : A set is a collection of unordered, distinct objects(could be numbers, could be something else) that we call elements.
 
@@ -89,5 +87,119 @@ Set
   * Order matters: BxA ≠ AxB unless A = B  
   * Empty Set: Ax∅ = ∅
 
+## Propositional Logic
 
-  
+### Definitions
+Proposition
+: A declarative sentence that is either true or false 
+
+### Syntax
+- Propositions are denoted with capital letters: P, Q, and R
+
+### Connectives
+- Conneectives are used for making compound propositions
+
+| Name | Represented | Meaning |
+| Negation | ¬p | "not p" |
+| Conjuction | p ^ q | "p and q" |
+| Disjunction | p ∨ q | "p or q" |
+| Exclusive Or | p ⊕ q | "p or q, but not both" |
+| Implication | p ⇒ q| "if p then q" | 
+| Biconditional | p ⇔ q| "p if and only if q" |
+
+### Truth Tables
+- Used to show all possible combinations of statements and connectives along with their truth values.
+
+#### Negation Example
+
+| p | ¬p |
+| T | F |
+| F | T |
+
+#### Conjuction Example (^, "and")
+
+| p | q | p ^ q |
+| T | F | F | 
+| T | T | T |
+| F | T | F |
+| F | F | F |
+
+#### Disjunction Example (∨, "or")
+
+| p | q | p ∨ q |
+| T | F | T | 
+| T | T | T |
+| F | T | T |
+| F | F | F |
+
+#### Exclusive Or Example (⊕, "xor")
+
+| p | q | p ⊕ q |
+| T | F | T | 
+| T | T | F |
+| F | T | T |
+| F | F | F |
+
+#### Implication Example (⇒, "if p then q")
+
+| p | q | p ⇒ q |
+| T | F | F | 
+| T | T | T |
+| F | T | T |
+| F | F | T |
+
+#### Biconditional Example (⇔, "p if and only if q")
+
+| p | q | p ⇔ q |
+| T | F | F | 
+| T | T | T |
+| F | T | F |
+| F | F | T |
+
+### Proofs Using Truth Tables
+- Formulas p and q are logically equivalent if and only if the truth conditions of p are the same as the truth conditions of q
+
+#### Example
+Show that ¬(p ∨ q) ≡ ¬p ^ ¬q
+
+| p | q | ¬p | ¬q | p ∨ q | ¬(p ∨ q) | ¬p ^ ¬q
+| T | T | F | F | T | F | F |
+| T | F | F | T | T | F | F |
+| F | T | T | F | T | F | F |
+| F | F | T | T | F | T | F |
+
+The last two columns are equivalent, therefore ¬(p ∨ q) ≡ ¬p ^ ¬q
+
+#### Definitions
+Tautology: A statment that always produces truth
+
+Contradiction: A stament that always produces false
+
+### Basic Laws of Logic
+Assume T is a tautology and F is a contradiction
+
+#### Double Negation Law
+- ¬¬p ⇔ p
+
+#### Identity Laws:
+- p ^ T ⇔ p
+- p ∨ F ⇔ p
+
+#### Domination Laws:
+- p ∨ T ⇔ T
+- p ^ F ⇔ F
+
+#### DeMorgan's Laws
+- ¬(p ^ q) ⇔ ¬p ∨ ¬q
+- ¬(p ∨ q) ⇔ ¬p ^ ¬q 
+
+### Advanced Laws of Logic
+Assume T is a tautology and F is a contradiction
+
+#### Distibutive Law:
+- p ^ (q ∨ r) ⇔ (p ^ q) ∨ (p ^ r)
+- p ∨ (q ^ r) ⇔ (p ∨ q) ^ (p ∨ r)
+
+#### Absorption Laws:
+- p ^ (p ∨ q) ⇔ p
+- p ∨ (p ^ q) ⇔ p

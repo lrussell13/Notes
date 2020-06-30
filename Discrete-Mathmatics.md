@@ -97,7 +97,7 @@ Proposition
 - Propositions are denoted with capital letters: P, Q, and R
 
 ### Connectives
-- Conneectives are used for making compound propositions
+- Connectives are used for making compound propositions
 
 | Name | Represented | Meaning |
 | --- | --- | --- |
@@ -109,7 +109,7 @@ Proposition
 | Biconditional | p ⇔ q| "p if and only if q" |
 
 ### Truth Tables
-- Used to show all possible combinations of statements and connectives along with their truth values.
+Used to show all possible combinations of statements and connectives along with their truth values.
 
 #### Negation Example
 
@@ -164,7 +164,7 @@ Proposition
 | F | F | T |
 
 ### Proofs Using Truth Tables
-- Formulas p and q are logically equivalent if and only if the truth conditions of p are the same as the truth conditions of q
+Formulas p and q are logically equivalent if and only if the truth conditions of p are the same as the truth conditions of q
 
 #### Example
 Show that ¬(p ∨ q) ≡ ¬p ^ ¬q

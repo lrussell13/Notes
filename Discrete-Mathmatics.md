@@ -189,11 +189,11 @@ Assume T is a tautology and F is a contradiction
 #### Double Negation Law
 - ¬¬p ⇔ p
 
-#### Identity Laws:
+#### Identity Laws
 - p ^ T ⇔ p
 - p ∨ F ⇔ p
 
-#### Domination Laws:
+#### Domination Laws
 - p ∨ T ⇔ T
 - p ^ F ⇔ F
 
@@ -204,10 +204,17 @@ Assume T is a tautology and F is a contradiction
 ### Advanced Laws of Logic
 Assume T is a tautology and F is a contradiction
 
-#### Distibutive Law:
+#### Distributive Law
 - p ^ (q ∨ r) ⇔ (p ^ q) ∨ (p ^ r)
 - p ∨ (q ^ r) ⇔ (p ∨ q) ^ (p ∨ r)
 
-#### Absorption Laws:
+#### Absorption Laws
 - p ^ (p ∨ q) ⇔ p
 - p ∨ (p ^ q) ⇔ p
+
+#### Commutativity Laws
+- p ^ q ⇔
+- p ^ q ⇔
+
+#### Associativity Law
+- p ^ (q ^ r) ⇔

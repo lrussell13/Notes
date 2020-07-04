@@ -1,4 +1,4 @@
-# Discrete Mathmatics
+# Discrete Mathematics
 
 ## Set Theory
 
@@ -102,11 +102,11 @@ Proposition
 | Name | Represented | Meaning |
 | --- | --- | --- |
 | Negation | ¬p | "not p" |
-| Conjuction | p ^ q | "p and q" |
+| Conjunction | p ^ q | "p and q" |
 | Disjunction | p ∨ q | "p or q" |
 | Exclusive Or | p ⊕ q | "p or q, but not both" |
 | Implication | p ⇒ q| "if p then q" | 
-| Biconditional | p ⇔ q| "p if and only if q" |
+| Bi-conditional | p ⇔ q| "p if and only if q" |
 
 ### Truth Tables
 Used to show all possible combinations of statements and connectives along with their truth values.
@@ -118,7 +118,7 @@ Used to show all possible combinations of statements and connectives along with 
 | T | F |
 | F | T |
 
-#### Conjuction Example (^, "and")
+#### Conjunction Example (^, "and")
 
 | p | q | p ^ q |
 | --- | --- | --- |
@@ -154,7 +154,7 @@ Used to show all possible combinations of statements and connectives along with 
 | F | T | T |
 | F | F | T |
 
-#### Biconditional Example (⇔, "p if and only if q")
+#### Bi-conditional Example (⇔, "p if and only if q")
 
 | p | q | p ⇔ q |
 | --- | --- | --- |
@@ -179,9 +179,9 @@ Show that ¬(p ∨ q) ≡ ¬p ^ ¬q
 The last two columns are equivalent, therefore ¬(p ∨ q) ≡ ¬p ^ ¬q
 
 #### Definitions
-Tautology: A statment that always produces truth
+Tautology: A statement that always produces truth
 
-Contradiction: A stament that always produces false
+Contradiction: A statement that always produces false
 
 ### Basic Laws of Logic
 Assume T is a tautology and F is a contradiction
@@ -213,8 +213,15 @@ Assume T is a tautology and F is a contradiction
 - p ∨ (p ^ q) ⇔ p
 
 #### Commutativity Laws
-- p ^ q ⇔
-- p ^ q ⇔
+- p ^ q ⇔ q ^ p
+- p ∨ q ⇔ q ∨ p
 
 #### Associativity Law
-- p ^ (q ^ r) ⇔
+- p ^ (q ^ r) ⇔ (p ^ q) ^ r
+
+#### Inverse Laws
+- p ^ ¬p ⇔ F
+- p ∨ ¬p ⇔ T
+
+#### Conditional Law
+- p ⇒ q ⇔ ¬p ∨ q

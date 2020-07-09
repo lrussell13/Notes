@@ -225,3 +225,24 @@ Assume T is a tautology and F is a contradiction
 
 #### Conditional Law
 - p ⇒ q ⇔ ¬p ∨ q
+
+## Combinations and Permutations
+
+### Introduction to Counting
+
+#### Principle of Addition (Sum Rule of Counting)
+For two separate tasks, if task A can be done n ways and task B can be done m ways then A and B can be done in n + m ways.
+
+Ex: How many different ways can you draw a jack or an ace in a standard deck of cards?
+- 8 different ways
+
+#### Product Principle (Product Rule of Counting)
+In a list, A through B, if there are n ways of choosing A, and m ways of choosing B, then there are n * m ways of choosing AB
+
+Ex: How many different ways can I customize my phone? Assume there are 6 different storage options, 8 different colors, and 2 different firmware's I can choose from.
+- 96 different options  
+
+#### Factorials
+Factorials are denoted by n!: n * (n-1) * (n-2)... ...2, 1
+
+Special Rule with 0 Factorial: 0! = 1

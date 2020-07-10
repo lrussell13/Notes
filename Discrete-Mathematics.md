@@ -246,3 +246,42 @@ Ex: How many different ways can I customize my phone? Assume there are 6 differe
 Factorials are denoted by n!: n * (n-1) * (n-2)... ...2, 1
 
 Special Rule with 0 Factorial: 0! = 1
+
+### Introduction to Permutations
+Permutations : All possible arrangements of a collection of things, where order is important
+
+#### Two Types of Permutations
+- Permutations with Repetition : Permutations where repeating numbers/objects is allowed
+  * Ex: Combination lock where a combination of "1,1,1,1" would work
+
+- Permutations without Repetition : Permutations where repeating numbers/objects is not allowed
+  * People running a race; one person cannot be first and second
+
+#### Calculating Permutations
+
+##### Permutations with Repetition
+- If something has n choices and we can choose any of them every time, so we have n choices each time.
+- General formula: If we are choosing r of something that has n different possibilities, we will multiply n by itself r times, or n<sup>r</sup>
+  * Ex: Consider a phone password where you choose 4 digits. Determine how many passcodes are possible.  
+    - 10<sup>4</sup> 
+
+##### Permutations without Repetition
+- If something has n choices, we must reduce the number of available choices each time.
+- General formula: Assume n is the number of things to choose from and we are choosing r of them, no repetitions, order matters. 
+  * n!/(n-r)! = P(n,r) 
+- Ex:  Consider a race with 10 runners. Determine how many different top 3 finish orders are possible 
+  * 720 ways
+
+### Introduction to Combinations
+Combinations: All possible arrangements of things, where order doesn't matter
+
+#### Two Types of Combinations
+- Combinations with Repetition : Combinations where repeating numbers/objects is allowed
+  * Ex: Could be ice cream scoops, 3 scoops are available in each cone but you could have 2 or more of one flavor
+
+- Combinations without Repetition : Combinations where repeating numbers/objects is not allowed
+  * The lottery, numbers are drawn one at a time, and if we have the numbers we win no matter what order they are in
+
+#### Calculating Combinations
+
+##### Combinations with Repetition
